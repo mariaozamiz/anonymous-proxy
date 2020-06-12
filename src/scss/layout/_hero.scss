@@ -21,7 +21,13 @@
         margin-top: 10px;
     }
 
-    &__button {
-        border-radius: 22.5px;
+    &__arrow {
+        background: url(../../assets/images/ico-scroll-down.svg) no-repeat
+            center;
+        background-color: $color-light;
+        transform: translate(1050%, 250%);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
     }
 }
