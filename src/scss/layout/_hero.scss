@@ -1,0 +1,28 @@
+.hero {
+    height: 100vh;
+    background: url("../images/cover.jpg") no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    &__title {
+        text-transform: uppercase;
+        font-family: "Roboto Slab", serif;
+        font-size: 42px;
+        line-height: 55px;
+        color: $color-light;
+    }
+
+    & p {
+        font-family: "Roboto", Arial, sans-serif;
+        color: $color-light;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    &__button {
+        border-radius: 22.5px;
+    }
+}
