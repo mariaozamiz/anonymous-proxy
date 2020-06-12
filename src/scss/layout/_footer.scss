@@ -4,6 +4,19 @@
     & span {
         color: $color-light;
     }
+
+    &__arrow {
+        background: url(../../assets/images/ico-arrow.svg) no-repeat center;
+        background-color: $color-light;
+        transform: translate(1050%, -50%);
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+
+        & img {
+            align-self: center;
+        }
+    }
 }
 .list__item {
     color: $color-light;
