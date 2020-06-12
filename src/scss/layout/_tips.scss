@@ -1,32 +1,46 @@
 .section {
-
     background-color: $color-light;
+    display: flex;
+    justify-content: space-around;
+
+    & span {
+        font-size: 14px;
+        line-height: 30px;
+        color: $color-auxiliary-text;
+        margin-bottom: 1px;
+        text-transform: capitalize;
+    }
 
     &__title {
         font-family: "Roboto Slab", serif;
         font-weight: 700;
         font-size: 24px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
     }
-    & span {
-        font-size: 14px;
-        line-height: 30px;
-        color: $color-auxiliary-text;
-    }
+
     & p {
         font-size: 18px;
         line-height: 30px;
         color: $color-medium;
+        margin-bottom: 30px;
     }
+
     &__button {
-        font-size: 20px,
-        line-height: 45px;
-        font-weight: 400;
-        color: $color-secondary;
-        text-align: center;
         width: 76px;
         height: 45px;
+        font-size: 20px;
+        line-height: 45px;
+        font-weight: 400;
+        color: $color-primary;
+        text-align: center;
+
         border-radius: 22.5px;
-        border: $color-secondary;
+        border: 2px solid $color-primary;
     }
 }
-
+.wrapper {
+    border: 1px solid red;
+    padding: 30px 15px 45px 15px;
+    margin: auto;
+}
