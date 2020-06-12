@@ -1,0 +1,32 @@
+.section {
+
+    background-color: $color-light;
+
+    &__title {
+        font-family: "Roboto Slab", serif;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    & span {
+        font-size: 14px;
+        line-height: 30px;
+        color: $color-auxiliary-text;
+    }
+    & p {
+        font-size: 18px;
+        line-height: 30px;
+        color: $color-medium;
+    }
+    &__button {
+        font-size: 20px,
+        line-height: 45px;
+        font-weight: 400;
+        color: $color-secondary;
+        text-align: center;
+        width: 76px;
+        height: 45px;
+        border-radius: 22.5px;
+        border: $color-secondary;
+    }
+}
+
