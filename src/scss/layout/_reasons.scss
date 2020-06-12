@@ -7,17 +7,39 @@
 }
 
 .section__title {
-    grid-column: span 5;
+    grid-column: span 6;
+    // margin: 30px 15px 45px 15px;
 }
 
-.article-1,
-.article-2,
-.article-3 {
-    grid-column: span 5;
+.article--1 {
+    grid-column: span 6;
+
+    @include tablet {
+        grid-column: 1/3;
+    }
+}
+
+.article--2 {
+    grid-column: span 6;
+
+    @include tablet {
+        grid-column: 3/5;
+    }
+}
+
+.article--3 {
+    grid-column: span 6;
+
+    @include tablet {
+        grid-column: 5/7;
+    }
+}
+
+.article__title {
 }
 
 .section__button-filled {
-    grid-column: span 5;
+    grid-column: span 6;
 }
 
 .section__title,
