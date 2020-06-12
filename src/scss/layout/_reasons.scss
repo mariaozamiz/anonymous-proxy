@@ -1,2 +1,29 @@
-.section {
+.section__reasons {
+    background-color: $color-secondary;
+    display: grid;
+    grid-template: repeat(6, 1fr);
+    grid-row: 125px, 373px, 125px;
+    text-align: center;
+}
+
+.section__title {
+    grid-column: span 5;
+}
+
+.article-1,
+.article-2,
+.article-3 {
+    grid-column: span 5;
+}
+
+.section__button-filled {
+    grid-column: span 5;
+}
+
+.section__title,
+.article-1,
+.article-2,
+.article-3,
+.section__button-filled {
+    border: 1px solid blueviolet;
 }
