@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
 }
 
 html {
@@ -7,7 +9,7 @@ html {
     font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
 
-h1,
+a h1,
 h2,
 h3,
 p {
