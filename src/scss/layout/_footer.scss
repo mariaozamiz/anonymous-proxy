@@ -13,10 +13,7 @@
         align-items: flex-start;
     }
 
-    & p {
-        color: $color-light;
-        font-size: 14px;
-        line-height: 30px;
+    &__copy {
         display: inline-block;
 
         @include tablet {
@@ -37,10 +34,4 @@
             padding: 10px 6.5px 6px;
         }
     }
-}
-.list__item {
-    color: $color-light;
-    text-transform: uppercase;
-    font-size: 16px;
-    line-height: 30px;
 }

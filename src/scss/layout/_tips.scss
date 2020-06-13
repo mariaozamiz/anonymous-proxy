@@ -2,35 +2,20 @@
     background-color: $color-light;
     display: flex;
     justify-content: space-around;
-
-    &__title {
-        font-family: "Roboto Slab", serif;
-        font-weight: 700;
-        font-size: 24px;
-        margin-bottom: 15px;
-        text-transform: capitalize;
-    }
-
-    & p {
-        font-size: 18px;
-        line-height: 30px;
-        color: $color-medium;
-        margin-bottom: 30px;
-    }
-
-    &__button {
-        width: 76px;
-        height: 45px;
-        font-size: 20px;
-        line-height: 45px;
-        font-weight: 400;
-        color: $color-primary;
-        text-align: center;
-
-        border-radius: 22.5px;
-        border: 2px solid $color-primary;
-    }
 }
+
+.section__button--a {
+    width: 76px;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    font-weight: 400;
+    color: $color-primary;
+    text-align: center;
+    border-radius: 22.5px;
+    border: 2px solid $color-primary;
+}
+
 .wrapper {
     border: 1px solid red;
     padding: 30px 15px 45px 15px;

@@ -1,7 +1,7 @@
 .hero__title {
     font-family: $font-emphatic;
-    font-size: 42px;
     font-weight: $bold;
+    font-size: 42px;
     line-height: 55px;
     color: $color-light;
     text-shadow: $shadow-text;
@@ -20,31 +20,65 @@
 
 .hero__subtitle {
     font-weight: $regular;
-    font-size: 16px;
-    margin-top: 10px;
+    font-size: $s;
     color: $color-light;
 
     @include tablet {
-        font-size: 24px;
+        font-size: $xl;
     }
 }
 
 .section__category {
-    font-size: 14px;
-    line-height: 30px;
+    font-size: $xs;
     color: $color-auxiliary-text;
     text-transform: capitalize;
 
     @include desktop {
-        font-size: 16px;
+        font-size: $s;
     }
 }
 
 .section__title {
     font-family: $font-emphatic;
-    font-size: 24px;
-    font-weight: $bold;
-    line-height: 30px;
+    font-size: $xl;
     color: $color-dark;
     text-transform: capitalize;
+}
+
+.section__paragraph {
+    font-weight: $regular;
+    font-size: $m;
+    color: $color-medium;
+}
+
+.article__title {
+    font-family: $font-emphatic;
+    font-weight: $bold;
+    font-size: $m;
+    color: $color-dark;
+    text-align: center;
+
+    @include tablet {
+        font-size: $xl;
+    }
+}
+
+.article__paragraph {
+    font-size: $m;
+    color: $color-dark;
+
+    @include tablet {
+        font-size: $l;
+    }
+}
+
+.list__item {
+    font-size: $s;
+    color: $color-light;
+    text-transform: uppercase;
+}
+
+.footer__copy {
+    font-size: $xs;
+    color: $color-light;
 }
