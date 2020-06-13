@@ -11,9 +11,17 @@ $color-text-shadow: rgba(255, 255, 255, 0.5);
 $color-icon-shadow: rgba(0, 0, 0, 0.5);
 
 /* SHADOWS */
-
 $shadow-text: 0px 2px 3px 0px $color-text-shadow;
 $shadow-icon: 0px 2px 4px 0px $color-icon-shadow;
+
+/* FONTS */
+$font-basic: Roboto, Arial, sans-serif;
+$font-emphatic: "Roboto Slab", serif;
+
+/* FONT WEIGHT */
+$regular: 400;
+$medium: 500;
+$bold: 700;
 
 /* BREAKPOINTS */
 $tablet: 768px;

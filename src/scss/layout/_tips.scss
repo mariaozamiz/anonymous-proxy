@@ -3,14 +3,6 @@
     display: flex;
     justify-content: space-around;
 
-    & span {
-        font-size: 14px;
-        line-height: 30px;
-        color: $color-auxiliary-text;
-        margin-bottom: 1px;
-        text-transform: capitalize;
-    }
-
     &__title {
         font-family: "Roboto Slab", serif;
         font-weight: 700;

@@ -1,0 +1,50 @@
+.hero__title {
+    font-family: $font-emphatic;
+    font-size: 42px;
+    font-weight: $bold;
+    line-height: 55px;
+    color: $color-light;
+    text-shadow: $shadow-text;
+    text-transform: uppercase;
+
+    @include tablet {
+        font-size: 80px;
+        line-height: 106px;
+    }
+
+    @include desktop {
+        font-size: 100px;
+        line-height: 132px;
+    }
+}
+
+.hero__subtitle {
+    font-weight: $regular;
+    font-size: 16px;
+    margin-top: 10px;
+    color: $color-light;
+
+    @include tablet {
+        font-size: 24px;
+    }
+}
+
+.section__category {
+    font-size: 14px;
+    line-height: 30px;
+    color: $color-auxiliary-text;
+    text-transform: capitalize;
+
+    @include desktop {
+        font-size: 16px;
+    }
+}
+
+.section__title {
+    font-family: $font-emphatic;
+    font-size: 24px;
+    font-weight: $bold;
+    line-height: 30px;
+    color: $color-dark;
+    text-transform: capitalize;
+}
