@@ -26,15 +26,14 @@
     }
 
     &__arrow {
-        background: url(../../assets/images/ico-arrow.svg) no-repeat center;
-        background-color: $color-light;
+        background: $color-light;
         width: 45px;
         height: 45px;
         border-radius: 50%;
         position: absolute;
 
         & img {
-            align-self: center;
+            text-align: center;
         }
     }
 }
