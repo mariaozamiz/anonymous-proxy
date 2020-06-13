@@ -17,17 +17,8 @@
     <body>
         <header>
             <nav class="menu">
-                <a
-                    class="menu__link"
-                    href="https://adalab.es/"
-                    title="Ir a la web de Adalab"
-                    target="_blank"
-                >
-                    <img
-                        class="menu__icon"
-                        src="../assets/images/ico-menu.svg"
-                        alt="Menu Icon"
-                    />
+                <a href="https://adalab.es/" title="Go to Adalab website" target="_blank">
+                    <img src="../assets/images/ico-menu.svg" alt="Menu Icon" />
                 </a>
             </nav>
 
@@ -36,21 +27,25 @@
                     <span>anonymous</span>
                     <span>proxy</span>
                 </h1>
-                <p>In hac habitasse platea dictumst.</p>
-                <div class="hero__arrow"></div>
+                <p class="hero__subtitle">In hac habitasse platea dictumst.</p>
+                <div class="hero__button">
+                    <a href="#" title="Go to reasons to purchase">
+                        <img src="../assets/images/ico-scroll-down.svg" alt="scroll icon" />
+                    </a>
+                </div>
             </section>
 
         </header>
         <main>
-            <section class="section--tips">
+            <section class="section__tips">
                 <div class="wrapper">
-                    <span>insomnia tips</span>
-                    <h2 class="section--tips__title">looking though a window</h2>
-                    <p>
+                    <span class="section__category">insomnia tips</span>
+                    <h2 class="section__title">looking though a window</h2>
+                    <p class="section__paragraph">
                         Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
                         at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
                     </p>
-                    <div class="section__button">Go</div>
+                    <div class="section__button--a">Go</div>
                 </div>
             </section>
 
@@ -58,29 +53,37 @@
                 <h2 class="section__title">3 reasons to purchase</h2>
                 <article class="article article--1">
                     <h3 class="article__title">Ut sed metus</h3>
-                    <p class="article__content">Lorem ipsum dolor sit amet, consecteur.</p>
+                    <p class="article__paragraph"></p>
+                        Lorem ipsum dolor sit amet, consecteur.
+                    </p>
                 </article>
                 <article class="article article--2">
                     <h3 class="article__title">Curabitur ac erat</h3>
-                    <p class="article__content">Mauris mattis urna quis lorem molestie.</p>
+                    <p class="article__paragraph">
+                        Mauris mattis urna quis lorem molestie.
+                    </p>
                 </article>
                 <article class="article article--3">
                     <h3 class="article__title">Morbi dictum</h3>
-                    <p class="article__content">Aliquam in dolor et dolor tincidunt.</p>
+                    <p class="article__paragraph">Aliquam in dolor et dolor tincidunt.</p>
                 </article>
                 <div class="section__button-filled">More reasons</div>
             </section>
 
         </main>
         <footer class="footer">
-            <div class="footer__arrow"></div>
+            <div class="footer__button">
+                <a href="top#" title="To the top"
+                    ><img src="../assets/images/ico-arrow.svg" alt="arrow icon"
+                /></a>
+            </div>
             <nav class="footer__menu">
                 <ul class="menu__list">
                     <li class="list__item">
                         <a
                             href="https://adalab.es/"
                             class="menu__item--link"
-                            title="Ir a la web de Adalab"
+                            title="Go to Adalab website"
                             target="_blank"
                             >articles</a
                         >
@@ -89,7 +92,7 @@
                         <a
                             href="https://adalab.es/"
                             class="menu__item--link"
-                            title="Ir a la web de Adalab"
+                            title="Go to Adalab website"
                             target="_blank"
                             >books</a
                         >
@@ -98,7 +101,7 @@
                         <a
                             href="https://adalab.es/"
                             class="menu__item--link"
-                            title="Ir a la web de Adalab"
+                            title="Go to Adalab website"
                             target="_blank"
                             >events</a
                         >
@@ -107,7 +110,7 @@
                         <a
                             href="https://adalab.es/"
                             class="menu__item--link"
-                            title="Ir a la web de Adalab"
+                            title="Go to Adalab website"
                             target="_blank"
                             >reasons</a
                         >
@@ -116,7 +119,7 @@
                         <a
                             href="https://adalab.es/"
                             class="menu__item--link"
-                            title="Ir a la web de Adalab"
+                            title="Go to Adalab website"
                             target="_blank"
                             >tips</a
                         >
@@ -129,7 +132,7 @@
                     <a
                         href="https://adalab.es/"
                         class="menu__item--link"
-                        title="Ir a la web de Adalab"
+                        title="Go to Adalab website"
                         target="_blank"
                         >twitter</a
                     >
@@ -138,7 +141,7 @@
                     <a
                         href="https://adalab.es/"
                         class="menu__item--link"
-                        title="Ir a la web de Adalab"
+                        title="Go to Adalab website"
                         target="_blank"
                         >instagram</a
                     >
@@ -147,13 +150,13 @@
                     <a
                         href="https://adalab.es/"
                         class="menu__item--link"
-                        title="Ir a la web de Adalab"
+                        title="Go to Adalab website"
                         target="_blank"
                         >mastodon.social</a
                     >
                 </li>
             </ul>
-            <p>
+            <p class="footer__copy">
                 <span>&copy;2017</span>
                 <span>we love components</span>
             </p>
