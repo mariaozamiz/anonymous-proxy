@@ -17,19 +17,20 @@
 
     & a {
         @include tablet {
-        display: block;
+            display: block;
+        }
     }
-}
 
-.wrapper {
-    border: 1px solid red;
-    padding: 30px 15px 45px 15px;
-    margin: auto;
+    .wrapper {
+        border: 1px solid red;
+        padding: 30px 15px 45px 15px;
+        margin: auto;
 
-    @include tablet {
-        max-width: 95%;
-    }
-    @include desktop {
-        max-width: 70%;
+        @include tablet {
+            max-width: 95%;
+        }
+        @include desktop {
+            max-width: 70%;
+        }
     }
 }
