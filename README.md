@@ -19,7 +19,7 @@
 
 5. Cuarto módulo (footer): se debe maquetar usando flexbox. Todos los textos de la columna "ARTICLES" y todos los textos de la columna "TWITTER" deben ser enlaces a la página de Adalab.
 
-###Interacción
+### Interacción
 
 En total, hay 3 interacciones que resolver:
 
