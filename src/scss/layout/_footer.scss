@@ -19,7 +19,11 @@
         border-radius: 50%;
         box-shadow: $shadow-icon;
         position: absolute;
-        bottom: 250px;
+        bottom: 430px;
+
+        @include tablet {
+            bottom: 250px;
+        }
 
         & img {
             display: block;

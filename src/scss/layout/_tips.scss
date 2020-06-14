@@ -14,6 +14,11 @@
         width: 160px;
         height: 45px;
     }
+
+    & a {
+        @include tablet {
+        display: block;
+    }
 }
 
 .wrapper {
