@@ -3,8 +3,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
-
     padding-bottom: 45px;
 
     @include tablet {
@@ -14,11 +12,13 @@
     }
 
     &__copy {
-        display: inline-block;
-
         @include tablet {
             order: -1;
-            padding-top: 20px;
+            margin-top: 20px;
+        }
+
+        & span {
+            display: block;
         }
     }
 

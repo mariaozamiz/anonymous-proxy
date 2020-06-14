@@ -1,3 +1,5 @@
+/* HEADER */
+
 .hero__title {
     font-family: $font-emphatic;
     font-weight: $bold;
@@ -6,6 +8,7 @@
     color: $color-light;
     text-shadow: $shadow-text;
     text-transform: uppercase;
+    text-align: center;
 
     @include tablet {
         font-size: 80px;
@@ -22,16 +25,22 @@
     font-weight: $regular;
     font-size: $s;
     color: $color-light;
+    text-align: center;
 
     @include tablet {
         font-size: $xl;
     }
 }
 
+/* MAIN */
+
+/* section tips */
 .section__category {
     font-size: $xs;
+    line-height: 1.88px;
     color: $color-auxiliary-text;
     text-transform: capitalize;
+    margin-bottom: 2px;
 
     @include desktop {
         font-size: $s;
@@ -49,8 +58,19 @@
     font-weight: $regular;
     font-size: $m;
     color: $color-medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
+.section__button--outlined {
+    font-size: $l;
+    line-height: 45px;
+    font-weight: $regular;
+    color: $color-primary;
+    text-align: center;
+}
+
+/* section reasons */
 .article__title {
     font-family: $font-emphatic;
     font-weight: $bold;
@@ -72,10 +92,24 @@
     }
 }
 
+.section__button--filled {
+    font-size: $l;
+    line-height: 45px;
+    font-weight: $medium;
+    color: $color-light;
+}
+
+/* FOOTER */
+
 .list__item {
     font-size: $s;
     color: $color-light;
     text-transform: uppercase;
+    text-align: center;
+
+    @include tablet {
+        text-align: left;
+    }
 }
 
 .footer__copy {

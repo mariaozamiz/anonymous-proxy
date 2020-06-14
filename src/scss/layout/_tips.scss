@@ -4,14 +4,9 @@
     justify-content: space-around;
 }
 
-.section__button--a {
+.section__button--outlined {
     width: 76px;
     height: 45px;
-    font-size: 20px;
-    line-height: 45px;
-    font-weight: 400;
-    color: $color-primary;
-    text-align: center;
     border-radius: 22.5px;
     border: 2px solid $color-primary;
 }
@@ -20,4 +15,11 @@
     border: 1px solid red;
     padding: 30px 15px 45px 15px;
     margin: auto;
+
+    @include tablet {
+        max-width: 95%;
+    }
+    @include desktop {
+        max-width: 70%;
+    }
 }
