@@ -12,26 +12,6 @@
         align-items: flex-start;
     }
 
-    &__button {
-        background: $color-light;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        box-shadow: $shadow-icon;
-        position: absolute;
-        bottom: 430px;
-
-        @include tablet {
-            bottom: 250px;
-        }
-
-        & img {
-            display: block;
-            margin: auto;
-            padding-top: 10px;
-        }
-    }
-
     &__copy {
         @include tablet {
             order: -1;
