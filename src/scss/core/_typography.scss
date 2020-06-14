@@ -62,14 +62,6 @@
     margin-bottom: 30px;
 }
 
-.section__button--outlined {
-    font-size: $l;
-    line-height: 45px;
-    font-weight: $regular;
-    color: $color-primary;
-    text-align: center;
-}
-
 /* section reasons */
 .article__title {
     font-family: $font-emphatic;
@@ -88,17 +80,11 @@
 .article__paragraph {
     font-size: $m;
     color: $color-dark;
+    padding-bottom: 45px;
 
     @include tablet {
         font-size: $l;
     }
-}
-
-.section__button--filled {
-    font-size: $l;
-    line-height: 45px;
-    font-weight: $medium;
-    color: $color-light;
 }
 
 /* FOOTER */

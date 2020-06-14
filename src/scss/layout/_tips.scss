@@ -4,33 +4,15 @@
     justify-content: space-around;
 }
 
-.section__button--outlined {
-    width: 76px;
-    height: 45px;
-    border-radius: 22.5px;
-    border: 2px solid $color-primary;
+.wrapper {
+    border: 1px solid red;
+    padding: 30px 15px 45px 15px;
+    margin: auto;
 
     @include tablet {
-        width: 160px;
-        height: 45px;
+        max-width: 95%;
     }
-
-    & a {
-        @include tablet {
-            display: block;
-        }
-    }
-
-    .wrapper {
-        border: 1px solid red;
-        padding: 30px 15px 45px 15px;
-        margin: auto;
-
-        @include tablet {
-            max-width: 95%;
-        }
-        @include desktop {
-            max-width: 70%;
-        }
+    @include desktop {
+        max-width: 70%;
     }
 }
