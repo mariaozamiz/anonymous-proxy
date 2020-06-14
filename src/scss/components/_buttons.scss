@@ -6,10 +6,8 @@
     border: 2px solid $color-primary;
 
     &:hover {
-        border: none;
-        background-color: $color-primary;
-        color: $color-light;
-        transform: scale(1.1, 1.1);
+        border: 2px solid $color-auxiliary;
+        color: $color-auxiliary;
     }
 
     @include tablet {
@@ -36,9 +34,6 @@
     border: none;
 
     &:hover {
-        border: 2px solid $color-primary;
-        background-color: $color-light;
-        color: $color-primary;
-        transform: scale(1.1, 1.1);
+        background-color: $color-auxiliary;
     }
 }
