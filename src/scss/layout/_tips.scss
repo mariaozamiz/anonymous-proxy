@@ -9,6 +9,11 @@
     height: 45px;
     border-radius: 22.5px;
     border: 2px solid $color-primary;
+
+    @include tablet {
+        width: 160px;
+        height: 45px;
+    }
 }
 
 .wrapper {

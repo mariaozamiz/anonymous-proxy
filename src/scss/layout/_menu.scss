@@ -8,6 +8,8 @@
     background-color: $color-auxiliary;
 
     & img {
-        padding: 15px 14px;
+        display: block;
+        margin: auto;
+        padding-top: 14px;
     }
 }

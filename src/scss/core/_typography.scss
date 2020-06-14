@@ -77,9 +77,11 @@
     font-size: $m;
     color: $color-dark;
     text-align: center;
+    padding-bottom: 2px;
 
     @include tablet {
         font-size: $xl;
+        padding-bottom: 14px;
     }
 }
 
@@ -115,4 +117,9 @@
 .footer__copy {
     font-size: $xs;
     color: $color-light;
+    text-align: center;
+
+    @include tablet {
+        text-align: left;
+    }
 }
