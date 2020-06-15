@@ -12,6 +12,17 @@
     padding-top: 45px;
 }
 
+.article {
+    max-width: 184px;
+    @include tablet {
+        max-width: 210px;
+    }
+    @include tablet {
+        max-width: 350px;
+    }
+    justify-self: center;
+}
+
 .article--1 {
     @include tablet {
         grid-column: 1/4;
@@ -28,12 +39,4 @@
     @include tablet {
         grid-column: 6/9;
     }
-}
-
-.section__button--filled {
-    background-color: $color-primary;
-    width: 184px;
-    height: 45px;
-    border-radius: 22.5px;
-    margin: auto;
 }

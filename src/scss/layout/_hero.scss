@@ -1,13 +1,11 @@
 .hero {
     height: 100vh;
     background: {
-        image: linear-gradient(to bottom, ($color-text-shadow) 25%, $color-dark),
-            url("../images/cover.jpg");
+        image: url("../images/cover.jpg");
         position: center;
         repeat: no-repeat;
         size: cover;
     }
-    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -15,29 +13,5 @@
 
     &__title span {
         display: block;
-    }
-
-    &__button {
-        background: $color-light;
-        width: 45px;
-        height: 45px;
-        border-radius: 50%;
-        margin-top: 45px;
-        margin-bottom: 53px;
-
-        @include tablet {
-            margin-top: 30px;
-            margin-bottom: 45px;
-        }
-
-        @include desktop {
-            margin-bottom: 13px;
-        }
-
-        & img {
-            display: block;
-            margin: auto;
-            padding-top: 17px;
-        }
     }
 }

@@ -1,3 +1,31 @@
+/* HEADER */
+
+.hero__scroll {
+    background: $color-light;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-top: 45px;
+    margin-bottom: 53px;
+
+    @include tablet {
+        margin-top: 30px;
+        margin-bottom: 45px;
+    }
+
+    @include desktop {
+        margin-bottom: 13px;
+    }
+
+    & img {
+        display: block;
+        margin: auto;
+        padding-top: 17px;
+    }
+}
+
+/* MAIN */
+
 .section__button--outlined {
     /* shape */
     width: 76px;
@@ -25,6 +53,12 @@
 }
 
 .section__button--filled {
+    /* shape */
+    width: 184px;
+    height: 45px;
+    border-radius: 22.5px;
+    margin: auto;
+
     /* style */
     font-size: $l;
     line-height: 2.813rem; //45px
@@ -32,11 +66,14 @@
     color: $color-light;
     text-align: center;
     border: none;
+    background-color: $color-primary;
 
     &:hover {
         background-color: $color-auxiliary;
     }
 }
+
+/* FOOTER */
 
 .footer__arrow {
     /* shape */
