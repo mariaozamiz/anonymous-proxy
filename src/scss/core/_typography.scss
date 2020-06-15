@@ -3,21 +3,21 @@
 .hero__title {
     font-family: $font-emphatic;
     font-weight: $bold;
-    font-size: 42px;
-    line-height: 55px;
+    font-size: 2.625rem; //42px
+    line-height: 3.438rem; //55px
     color: $color-light;
     text-shadow: $shadow-text;
     text-transform: uppercase;
     text-align: center;
 
     @include tablet {
-        font-size: 80px;
-        line-height: 106px;
+        font-size: 5rem; //80px
+        line-height: 6.625rem; //106px
     }
 
     @include desktop {
-        font-size: 100px;
-        line-height: 132px;
+        font-size: 6.25rem; //100px
+        line-height: 8.25rem; //132px
     }
 }
 
@@ -37,7 +37,7 @@
 /* section tips */
 .section__category {
     font-size: $xs;
-    line-height: 1.88px;
+    line-height: 0.118rem; //1.88px
     color: $color-auxiliary-text;
     text-transform: capitalize;
     margin-bottom: 2px;
@@ -52,6 +52,9 @@
     font-size: $xl;
     color: $color-dark;
     text-transform: capitalize;
+    @include tablet {
+        font-size: 1.625rem; //26px
+    }
 }
 
 .section__paragraph {

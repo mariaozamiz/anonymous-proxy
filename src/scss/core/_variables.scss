@@ -24,14 +24,14 @@ $medium: 500;
 $bold: 700;
 
 /* FONT SIZE */
-$xs: 14px;
-$s: 16px;
-$m: 18px;
-$l: 20px;
-$xl: 24px;
+$xs: 0.875rem; //14px
+$s: 1rem; //16px
+$m: 1.125rem; //18px
+$l: 1.25rem; //20px
+$xl: 1.5rem; //24px
 
 /* TEXT LINE HEIGHT */
-$basic: 30px;
+$basic: 1.875rem; //30px
 
 /* BREAKPOINTS */
 $tablet: 768px;
