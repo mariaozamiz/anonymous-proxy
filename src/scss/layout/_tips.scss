@@ -4,19 +4,16 @@
     justify-content: space-around;
 }
 
-.wrapper {
-    margin: 0px 15px;
-    border: 1px solid red;
-}
+/* WRAPPER */
 
-.wrapper {
+.section__tips {
     padding: 30px 15px 45px 15px;
-    margin: auto;
-
     @include tablet {
+        padding: 30px 15px 60px 15px;
         max-width: 95%;
     }
     @include desktop {
+        padding: 60px 15px 60px 15px;
         max-width: 70%;
     }
 }

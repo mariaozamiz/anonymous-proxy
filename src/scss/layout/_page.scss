@@ -21,3 +21,20 @@ ul {
     padding-left: 0;
     list-style-type: none;
 }
+
+/* WRAPPER */
+
+.section__tips,
+.hero,
+.section__reasons,
+.footer {
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 15px 0px 15px;
+    @include tablet {
+        padding: 0px 39px 0px 39px;
+    }
+    @include desktop {
+        padding: 0px 81px 0px 81px;
+    }
+}

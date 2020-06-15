@@ -7,6 +7,7 @@
     border-radius: 50%;
     margin-top: 45px;
     margin-bottom: 53px;
+    flex-shrink: 0;
 
     @include tablet {
         margin-top: 30px;
@@ -81,6 +82,7 @@
     height: 45px;
     border-radius: 50%;
     position: absolute;
+    flex-shrink: 0;
     bottom: 430px;
     @include tablet {
         bottom: 250px;
