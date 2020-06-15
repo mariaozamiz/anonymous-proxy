@@ -1,8 +1,13 @@
 .hero {
     height: 100vh;
-    background: url("../images/cover.jpg") center no-repeat,
-        linear-gradient(to bottom, $color-text-shadow 25%, $color-dark);
-    background-size: cover;
+    background: {
+        image: linear-gradient(to bottom, ($color-text-shadow) 25%, $color-dark),
+            url("../images/cover.jpg");
+        position: center;
+        repeat: no-repeat;
+        size: cover;
+    }
+    background-blend-mode: multiply;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
