@@ -27,4 +27,21 @@
             display: block;
         }
     }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        @include tablet {
+            flex-direction: row;
+        }
+    }
+    .menu__list {
+        @include tablet {
+            margin-right: 150px;
+        }
+    }
+    .socialmedia__list {
+        @include tablet {
+        }
+    }
 }
