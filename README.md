@@ -16,3 +16,4 @@ Maquetación de una web responsive, mobile first, a partir de un diseño dado.
 
 - HTML5 y CSS3 (Sass, Flexbox, CSS Grid, Media Queries, CSS Transitions).
 - Gulp, [Adalab Web Starter Kit](https://github.com/Adalab/adalab-web-starter-kit)
+- Zeplin
