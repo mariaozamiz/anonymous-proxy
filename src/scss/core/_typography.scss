@@ -3,8 +3,8 @@
 .hero__title {
     font-family: $font-emphatic;
     font-weight: $bold;
-    font-size: 2.625rem; //42px
-    line-height: 3.438rem; //55px
+    font-size: 2.625rem;
+    line-height: 3.438rem;
     color: $color-light;
     text-shadow: $shadow-text;
     text-transform: uppercase;
@@ -12,13 +12,13 @@
     margin-bottom: 10px;
 
     @include tablet {
-        font-size: 5rem; //80px
-        line-height: 6.625rem; //106px
+        font-size: 5rem;
+        line-height: 6.625rem;
     }
 
     @include desktop {
-        font-size: 6.25rem; //100px
-        line-height: 8.25rem; //132px
+        font-size: 6.25rem;
+        line-height: 8.25rem;
     }
 }
 
@@ -38,7 +38,7 @@
 /* section tips */
 .section__category {
     font-size: $xs;
-    line-height: 0.118rem; //1.88px
+    line-height: 0.118rem;
     color: $color-auxiliary-text;
     text-transform: capitalize;
     margin-bottom: 2px;
@@ -54,7 +54,7 @@
     color: $color-dark;
     text-transform: capitalize;
     @include tablet {
-        font-size: 1.625rem; //26px
+        font-size: 1.625rem;
     }
 }
 
